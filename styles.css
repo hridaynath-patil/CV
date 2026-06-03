@@ -489,7 +489,7 @@ body.cursor-active .custom-cursor-dot {
   font-size: 0.9rem;
   font-weight: 500;
   color: var(--text-secondary);
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 
 .pulse-dot {
@@ -534,7 +534,7 @@ body.cursor-active .custom-cursor-dot {
 .hero-title {
   font-size: 2rem;
   color: var(--accent-color);
-  margin-bottom: 24px;
+  margin-bottom: 16px;
   height: 48px;
   display: flex;
   align-items: center;
@@ -554,7 +554,7 @@ body.cursor-active .custom-cursor-dot {
 .hero-description,
 .hero-bullet-list {
   font-size: 1.05rem;
-  margin-bottom: 36px;
+  margin-bottom: 24px;
   color: var(--text-secondary);
   max-width: 580px;
 }
@@ -585,7 +585,7 @@ body.cursor-active .custom-cursor-dot {
 .hero-ctas {
   display: flex;
   gap: 16px;
-  margin-bottom: 40px;
+  margin-bottom: 24px;
 }
 
 .social-links {
@@ -1638,6 +1638,26 @@ textarea.form-input~.form-label {
 }
 
 /* --- Responsive Media Queries --- */
+
+/* Responsive: 1200px and down */
+@media screen and (max-width: 1200px) {
+  .badge-1 {
+    top: -20px;
+    left: -40px;
+  }
+  .badge-2 {
+    top: 40px;
+    right: -40px;
+  }
+  .badge-3 {
+    bottom: 60px;
+    left: -50px;
+  }
+  .badge-4 {
+    bottom: -30px;
+    right: -50px;
+  }
+}
 
 /* Responsive: 1024px and down */
 @media screen and (max-width: 1024px) {
