@@ -261,17 +261,19 @@ document.addEventListener('DOMContentLoaded', () => {
       source: "https://github.com/hridaynath-patil/SmartDash-Project.git",
       live: "https://smartdash-project.onrender.com/"
     },
-    'food-seva': {
-      title: "Food SEVA",
-      tags: ["HTML/CSS", "PHP", "MySQL"],
-      description: "A community food collection and redistribution web platform designed to match surplus food donors with shelters and families in need.",
+    'anna-seva': {
+      title: "अन्न सेवा (Anna Seva)",
+      tags: ["Next.js", "SQLite", "Vanilla CSS"],
+      description: "An elegantly designed full-stack food rescue and redistribution application. Operated under the patronage of the Shri Vishwanathrao Shamrao Patil Charitable Trust, Anna Seva connects verified donors (banquets, caterers, restaurants, and households) with local recipient organizations (NGOs, shelter homes, and volunteers) to direct surplus food batches to those who need them most.",
       metrics: [
-        "Helped coordinate excess food distribution, resulting in a simulated 30% waste reduction.",
-        "Designed responsive, lightweight forms utilizing HTML5 validation and structured templates.",
-        "Engineered relational database systems handling 1,000+ donation transactions."
+        "Engineered backend REST API endpoints using Next.js App Router and integrated native SQLite (node:sqlite DatabaseSync).",
+        "Configured Write-Ahead Logging (WAL) and busy timeout (10s) to handle high-concurrency database queries during parallel builds.",
+        "Implemented donor registration with pending verification status, password visibility toggles, and state-city dynamic menus.",
+        "Created an interactive Available Food Directory with advanced filters and an Allocation Request claim workflow."
       ],
-      stats: { "PHP": 50, "HTML/CSS": 30, "MySQL": 20 },
-      source: "https://github.com"
+      stats: { "Next.js": 50, "SQLite": 25, "CSS": 25 },
+      source: "https://github.com/hridaynath-patil/Anna-Seva",
+      live: "http://localhost:3000"
     },
     'ebay-clone': {
       title: "eBay Clone",
