@@ -287,8 +287,10 @@ document.addEventListener('DOMContentLoaded', () => {
       stats: { "React": 40, "FastAPI": 30, "MySQL": 20, "CSS": 10 },
       source: "https://github.com/hridaynath-patil/Ebay_clone",
       live: "https://hridaynath-patil.github.io/Ebay_clone/"
-    }
   };
+
+  // Cache-resilience alias for legacy food-seva data-project-id clicks
+  projectsData['food-seva'] = projectsData['anna-seva'];
 
   const projectCards = document.querySelectorAll('.project-card');
   const modal = document.getElementById('projectModal');
