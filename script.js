@@ -273,7 +273,7 @@ document.addEventListener('DOMContentLoaded', () => {
       ],
       stats: { "Next.js": 50, "SQLite": 25, "CSS": 25 },
       source: "https://github.com/hridaynath-patil/Anna-Seva",
-      live: "http://localhost:3000"
+      live: "https://anna-seva.onrender.com/"
     },
     'ebay-clone': {
       title: "eBay Clone",
