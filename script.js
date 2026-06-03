@@ -273,17 +273,18 @@ document.addEventListener('DOMContentLoaded', () => {
       stats: { "PHP": 50, "HTML/CSS": 30, "MySQL": 20 },
       source: "https://github.com"
     },
-    'meesho-clone': {
-      title: "Meesho Clone Desktop Site",
-      tags: ["HTML5", "CSS3", "JavaScript"],
-      description: "A pixel-perfect interface replica of the popular e-commerce platform Meesho. Incorporates modular product grids and responsive catalogs.",
+    'ebay-clone': {
+      title: "eBay Clone",
+      tags: ["React", "FastAPI", "MySQL", "Python"],
+      description: "A comprehensive and elegantly designed full-stack e-commerce replica of eBay, bringing product discovery, listing categories, shopping cart management, and user authentication into a single unified space.",
       metrics: [
-        "Recreated desktop shopping experience using advanced CSS Grid and Flexbox layouts.",
-        "Developed custom search and filter filters updating lists in real-time.",
-        "Designed mock cart and catalog states using local web storage API."
+        "Built a comprehensive full-stack e-commerce system with auto-sliding carousels, Urgency & FOMO badges, and multi-action checkout flows.",
+        "Engineered secure authentication endpoints using Python and FastAPI, combined with responsive multi-tab (Personal/Business) registration panels.",
+        "Designed relational database schemas in MySQL to manage user profiles, dynamic shopping carts, and a seeded product inventory."
       ],
-      stats: { "JavaScript": 45, "CSS3": 40, "HTML5": 15 },
-      source: "https://github.com"
+      stats: { "React": 40, "FastAPI": 30, "MySQL": 20, "CSS": 10 },
+      source: "https://github.com/hridaynath-patil/Ebay_clone",
+      live: "https://hridaynath-patil.github.io/Ebay_clone/"
     }
   };
 
