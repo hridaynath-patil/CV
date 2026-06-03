@@ -1,0 +1,24 @@
+{
+  "name": "hridaynath-patil-portfolio",
+  "version": "1.0.0",
+  "description": "Premium reactive and responsive portfolio website for Hridaynath Patil.",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "portfolio",
+    "mern",
+    "react",
+    "developer",
+    "responsive",
+    "reactive"
+  ],
+  "author": "Hridaynath Patil",
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}
