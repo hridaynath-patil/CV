@@ -791,6 +791,30 @@ body.cursor-active .custom-cursor-dot {
   margin-bottom: 0;
 }
 
+.about-bullet-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about-bullet-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  line-height: 1.6;
+  font-size: 1.05rem;
+  color: var(--text-secondary);
+}
+
+.about-bullet-list .bullet-icon {
+  font-size: 1.4rem;
+  line-height: 1;
+  display: inline-block;
+  transform: translateY(-2px);
+  filter: drop-shadow(0 0 4px rgba(var(--accent-rgb), 0.3));
+}
+
 .about-stats-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
