@@ -263,17 +263,17 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     'anna-seva': {
       title: "अन्न सेवा (Anna Seva)",
-      tags: ["Next.js 16", "PostgreSQL", "SQLite", "Razorpay", "Vanilla CSS"],
-      description: "An elegantly designed, full-stack food rescue, redistribution, and donation web application. Operated under the patronage of the Shri Vishwanathrao Shamrao Patil Charitable Trust, Anna Seva connects verified donors (banquets, caterers, restaurants, and households) with local recipient organizations (NGOs, shelter homes, and volunteers) to direct surplus food batches to those who need them most.",
+      tags: ["Next.js 16", "SQLite", "Vanilla CSS", "App Router"],
+      description: "An elegantly designed, full-stack food rescue and redistribution web application. Operated under the patronage of the Shri Vishwanathrao Shamrao Patil Charitable Trust, Anna Seva connects verified donors (banquets, caterers, restaurants, and households) with local recipient organizations (NGOs, shelter homes, and volunteers) to direct surplus food batches to those who need them most.",
       metrics: [
-        "Developed under Next.js 16.2.7 (React 19) utilizing the modern App Router paradigm, using Next.js Turbopack for compilation and Vanilla CSS for dynamic interfaces.",
-        "Engineered dual-database layers supporting production PostgreSQL/Supabase (pg connection pooling with DNS Resolution Fallback to IPv4) and local development SQLite (node:sqlite with WAL and 10s busy timeout).",
-        "Implemented donor registration with pending status, guidelines, password visibility toggles, and state-city dynamic dropdowns.",
-        "Created an interactive Available Food Directory with search filters, tabular view, and an Allocation Request claim modal.",
-        "Integrated secure Razorpay donations supporting custom/preset amounts, offline QR code simulator, and generating Section 80G tax exemption receipts (URN: ABMTS3026RF20251).",
-        "Designed an administrator control panel auditing trust metrics, donor verifications (Approve/Reject/Remove), food listings, allocation logs, and static trust descriptions."
+        "Developed under Next.js 16 (React 19) utilizing the modern App Router paradigm, using Next.js Turbopack for compilation and Vanilla CSS for dynamic interfaces.",
+        "Engineered native Node.js SQLite (DatabaseSync) backend, configured with Write-Ahead Logging (WAL) and 10-second busy timeout to support smooth concurrent page rendering.",
+        "Implemented secure donor authentication & registration flow with default pending status requiring direct Admin Approval.",
+        "Created an interactive Available Food Directory with search & filters, a compact responsive tabular layout, and an Allocation Request claim modal.",
+        "Designed a Donor Management Panel featuring listed food logs, incoming recipient request lists, impact dashboards, and read-only profile summaries.",
+        "Built an Administrator Control Panel auditing trust metrics, verifying donor registrations (Approve/Reject/Remove), auditing food/allocation lists, and managing dynamic locations and static content."
       ],
-      stats: { "Next.js 16": 40, "PostgreSQL / SQLite": 30, "Razorpay API": 15, "Vanilla CSS": 15 },
+      stats: { "Next.js 16": 45, "SQLite": 30, "Vanilla CSS": 25 },
       source: "https://github.com/hridaynath-patil/Anna-Seva",
       live: "https://vspatilcharitabletrust.online/"
     },
